@@ -1,3 +1,11 @@
+import logging
+
+logging.basicConfig(
+    filename="logs/app.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+from werkzeug.security import check_password_hash
 from backend.validation import (
     validate_username,
     validate_email,
@@ -7,6 +15,8 @@ from backend.validation import (
 from backend.json_handler import load_users, save_users
 
 from werkzeug.security import generate_password_hash
+login_attempts = {}
+MAX_LOGIN_ATTEMPTS = 5
 
 def generate_user_id(users):    #Create User ID Generator
     return f"USR{len(users) + 1:03d}"
@@ -24,9 +34,7 @@ def email_exists(users, email):   #Create Duplicate Email Check
     )
 users = []
 def register_user(username, email, password):  #Create the Registration Function
-    def register_user(username, email, password):
-
-     users = load_users()
+    users = load_users()
 
     if not validate_username(username):
         raise ValueError("Invalid username")
@@ -62,4 +70,61 @@ def register_user(username, email, password):  #Create the Registration Function
     save_users(users)
 
     return new_user
-    
+
+def find_user(users, username_or_email):
+    for user in users:
+        if (
+            user["username"].lower() == username_or_email.lower()
+            or
+            user["email"].lower() == username_or_email.lower()
+        ):
+            return user
+
+    return None
+def login_user(username_or_email, password):
+    users = load_users()
+
+    user = find_user(users, username_or_email)
+
+    if user is None:
+        raise ValueError("Invalid username/email or password")
+
+    username = user["username"]
+
+    if user.get("locked", False):
+        raise ValueError("Account is locked")
+
+    attempts = login_attempts.get(username, 0)
+
+    if attempts >= MAX_LOGIN_ATTEMPTS:
+        user["locked"] = True
+        save_users(users)
+        raise ValueError("Account is locked")
+
+    if not check_password_hash(user["password_hash"], password):
+        attempts += 1
+        login_attempts[username] = attempts
+
+        if attempts >= MAX_LOGIN_ATTEMPTS:
+            user["locked"] = True
+            save_users(users)
+            raise ValueError("Too many failed attempts. Account locked")
+
+        remaining = MAX_LOGIN_ATTEMPTS - attempts
+
+        raise ValueError(
+            f"Invalid username/email or password. "
+            f"Attempts remaining: {remaining}"
+        )
+
+    login_attempts[username] = 0
+
+    return {
+        "user_id": user["user_id"],
+        "username": user["username"],
+        "email": user["email"]
+    }
+def logout_user():
+    return {
+        "message": "Logout successful"
+    }

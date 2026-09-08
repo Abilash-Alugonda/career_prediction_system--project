@@ -1,0 +1,22 @@
+2026-09-08 08:46:06,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-08 08:46:06,428 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 08:46:06,432 - INFO -  * Restarting with stat
+2026-09-08 08:46:07,014 - WARNING -  * Debugger is active!
+2026-09-08 08:46:07,019 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 08:49:44,208 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 08:49:44,352 - INFO -  * Restarting with stat
+2026-09-08 08:50:38,241 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-08 08:50:38,242 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 08:50:38,246 - INFO -  * Restarting with stat
+2026-09-08 08:50:39,515 - WARNING -  * Debugger is active!
+2026-09-08 08:50:39,521 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 08:53:07,181 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-08 08:53:07,182 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-08 08:53:07,188 - INFO -  * Restarting with stat
+2026-09-08 08:53:08,427 - WARNING -  * Debugger is active!
+2026-09-08 08:53:08,433 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 08:53:49,003 - INFO - 127.0.0.1 - - [08/Sep/2026 08:53:49] "GET / HTTP/1.1" 200 -
+2026-09-08 08:53:49,242 - INFO - 127.0.0.1 - - [08/Sep/2026 08:53:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
