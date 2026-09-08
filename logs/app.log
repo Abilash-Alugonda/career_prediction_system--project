@@ -20,3 +20,91 @@
 2026-09-08 08:53:08,433 - INFO -  * Debugger PIN: 939-531-100
 2026-09-08 08:53:49,003 - INFO - 127.0.0.1 - - [08/Sep/2026 08:53:49] "GET / HTTP/1.1" 200 -
 2026-09-08 08:53:49,242 - INFO - 127.0.0.1 - - [08/Sep/2026 08:53:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-08 09:20:06,532 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:20:06,689 - INFO -  * Restarting with stat
+2026-09-08 09:20:08,673 - WARNING -  * Debugger is active!
+2026-09-08 09:20:08,681 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:21:44,306 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:21:44,463 - INFO -  * Restarting with stat
+2026-09-08 09:21:45,501 - WARNING -  * Debugger is active!
+2026-09-08 09:21:45,505 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:22:46,722 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:22:46,851 - INFO -  * Restarting with stat
+2026-09-08 09:22:47,968 - WARNING -  * Debugger is active!
+2026-09-08 09:22:47,973 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:23:38,041 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:23:38,192 - INFO -  * Restarting with stat
+2026-09-08 09:23:39,342 - WARNING -  * Debugger is active!
+2026-09-08 09:23:39,347 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:23:41,513 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:23:41,673 - INFO -  * Restarting with stat
+2026-09-08 09:23:42,488 - WARNING -  * Debugger is active!
+2026-09-08 09:23:42,491 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:23:43,561 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:23:43,629 - INFO -  * Restarting with stat
+2026-09-08 09:23:44,918 - WARNING -  * Debugger is active!
+2026-09-08 09:23:44,923 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:23:48,126 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:23:48,246 - INFO -  * Restarting with stat
+2026-09-08 09:23:49,225 - WARNING -  * Debugger is active!
+2026-09-08 09:23:49,230 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:24:18,474 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:24:18,612 - INFO -  * Restarting with stat
+2026-09-08 09:24:19,882 - WARNING -  * Debugger is active!
+2026-09-08 09:24:19,889 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:24:28,440 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:24:28,595 - INFO -  * Restarting with stat
+2026-09-08 09:24:29,770 - WARNING -  * Debugger is active!
+2026-09-08 09:24:29,778 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:24:42,536 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:24:42,750 - INFO -  * Restarting with stat
+2026-09-08 09:24:43,974 - WARNING -  * Debugger is active!
+2026-09-08 09:24:43,979 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:24:47,194 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\user_profile.py', reloading
+2026-09-08 09:24:47,349 - INFO -  * Restarting with stat
+2026-09-08 09:24:48,509 - WARNING -  * Debugger is active!
+2026-09-08 09:24:48,514 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:26:44,453 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\tests\\test_profile.py', reloading
+2026-09-08 09:26:44,624 - INFO -  * Restarting with stat
+2026-09-08 09:26:46,276 - WARNING -  * Debugger is active!
+2026-09-08 09:26:46,285 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:34:18,331 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:34:18,558 - INFO -  * Restarting with stat
+2026-09-08 09:34:19,981 - WARNING -  * Debugger is active!
+2026-09-08 09:34:19,988 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:34:21,229 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:34:21,521 - INFO -  * Restarting with stat
+2026-09-08 09:34:22,786 - WARNING -  * Debugger is active!
+2026-09-08 09:34:22,792 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:34:55,379 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:34:55,532 - INFO -  * Restarting with stat
+2026-09-08 09:34:56,560 - WARNING -  * Debugger is active!
+2026-09-08 09:34:56,565 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:34:59,872 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:35:00,245 - INFO -  * Restarting with stat
+2026-09-08 09:35:01,526 - WARNING -  * Debugger is active!
+2026-09-08 09:35:01,534 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:35:02,680 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:35:02,796 - INFO -  * Restarting with stat
+2026-09-08 09:35:03,817 - WARNING -  * Debugger is active!
+2026-09-08 09:35:03,822 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:35:11,213 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:35:11,381 - INFO -  * Restarting with stat
+2026-09-08 09:35:12,119 - WARNING -  * Debugger is active!
+2026-09-08 09:35:12,127 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:35:28,898 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:35:29,071 - INFO -  * Restarting with stat
+2026-09-08 09:35:30,454 - WARNING -  * Debugger is active!
+2026-09-08 09:35:30,464 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:36:01,967 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:36:02,132 - INFO -  * Restarting with stat
+2026-09-08 09:36:03,224 - WARNING -  * Debugger is active!
+2026-09-08 09:36:03,229 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:36:07,513 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:36:07,696 - INFO -  * Restarting with stat
+2026-09-08 09:36:08,841 - WARNING -  * Debugger is active!
+2026-09-08 09:36:08,845 - INFO -  * Debugger PIN: 939-531-100
+2026-09-08 09:36:09,941 - INFO -  * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\career_prediction_system\\backend\\app.py', reloading
+2026-09-08 09:36:10,080 - INFO -  * Restarting with stat
+2026-09-08 09:36:11,252 - WARNING -  * Debugger is active!
+2026-09-08 09:36:11,264 - INFO -  * Debugger PIN: 939-531-100
